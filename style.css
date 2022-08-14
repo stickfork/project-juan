@@ -1,0 +1,235 @@
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    border: 4px solid red;
+    height: 2000px;
+    font-family: monospace;
+}
+
+.bodyone {
+    display: flex;
+    flex-direction: column;
+    border: 4px solid midnightblue;
+    height: 600px;
+    background-color: #1F2937;
+    
+}
+.logo {
+    display: flex;
+    border: 2px solid green;
+    height: 150px;
+}
+.logoone {
+    display: flex;
+    flex: 1 1 0%;
+    border: 2px solid cyan;
+    font-size: 24px;
+    color: #F9FAF8;
+    height: 150px;
+    margin-left: 150px;
+}
+.logotwo {
+    display: flex;
+    border: 2px solid cyan;
+    flex: 1 1 0%;
+    justify-content: space-evenly;
+    font-size: 18px;
+    margin-right: 100px;
+}
+.text {
+    display: flex;
+    border: 2px solid green;
+    height: 450px;
+}
+.textone {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid cyan;
+    flex: 1 1 0%;
+    margin-left: 150px;
+    height: 450px;
+}
+.headermain {
+    font-size: 48px;
+    font-style: bold;
+    color: #F9FAF8;
+}
+.headersec {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.but1 {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    min-height: 30px;
+    min-width: 60px;
+    color: #F9FAF8;
+}
+.but1:hover {
+    background-color: gold;
+    transition: 0.7s;
+}
+.texttwo {
+    display: flex;
+    border: 2px solid cyan;
+    flex: 1 1 0%;
+    margin-right: 100px;
+    height: 450px;
+}
+.bodytwo {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    border: 4px solid midnightblue;
+    height: 500px;
+}
+.title2 {
+    display: flex;
+    border: 4px solid yellow;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    color: #1F2937;
+}
+.display {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 auto;
+    border: 4px solid yellow;
+    align-items: center;
+    height: 400px;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+.d1, .d2, .d3, .d4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1 1 auto;
+    border: 4px solid grey;
+    height: 400px;
+}
+.d1image, .d2image, .d3image, .d4image {
+    display: flex;
+    border: 4px solid darkorange;
+    border-radius: 10px;
+    height: 150px;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-bottom: 50px;
+}
+.d1text, .d2text, .d3text, .d4text {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-align: center;
+}
+
+.bodythree {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    border: 4px solid midnightblue;
+    height: 440px;
+    background-color: #E5E7EB;
+}
+.quote1 {
+    display: flex;
+    height: 330px;
+    border: 4px solid burlywood;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 180px;
+    margin-right: 180px;
+    font-size: 36px;
+    color: #1F2937;
+}
+.quote2 {
+    display: flex;
+    height: 110px;
+    border: 4px solid burlywood;
+    justify-content: end;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+.bodyfour {
+    display: flex;
+    border: 4px solid midnightblue;
+    height: 360px;
+    align-items: center;
+    justify-content: center;
+}
+.backgr {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 auto;
+    border: 4px solid green;
+    border-radius: 10px;
+    background-color: #3882F6;
+    height: 150px;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+.text41 {
+    display: flex;
+    flex-direction: column;
+    flex: 2 1 auto;
+    height: 150px;
+    border: 4px solid hotpink;
+}
+.text411, .text412 {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    border: 4px solid khaki;
+    justify-content: center;
+    align-items: left;
+    color: white;
+    margin-left: 150px;
+}
+.but2 {
+    display: flex;
+    flex: 1 2 auto;
+    border: 4px solid red;
+    align-items: center;
+    height: 150px;
+}
+.but22 {
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-top: 10px;
+    min-height: 40px;
+    min-width: 100px;
+    color: #F9FAF8;
+}
+.but22:hover {
+    border: 4px solid gold;
+    transition: 0.7s;
+}
+.bodyfive {
+    display: flex;
+    border: 4px solid midnightblue;
+    height: 100px;
+    background-color: #1F2937;
+}
+.contain5 {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    justify-content: center;
+    border: 4px solid green;
+}
+.social1, .social2, .social3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid goldenrod;
+    width: 80px;
+    color: white;
+}
